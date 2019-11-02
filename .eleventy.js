@@ -2,6 +2,10 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const fs = require("fs");
 
+// Import KaTeX
+let markdownIt = require('markdown-it');
+let markdownItKatex = require('@iktakahiro/markdown-it-katex');
+
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
@@ -54,6 +58,15 @@ module.exports = function(config) {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+
+  // Customise markdown-it
+  let options = {
+    html: true,
+    typographer: true,
+    linkify: true
+  };
+
+  config.setLibrary("md", markdownIt(options).use(markdownItKatex, {"throwOnError" : false, "errorColor" : "#cc0000"}))
 
   // 404 
   config.setBrowserSyncConfig({
