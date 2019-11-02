@@ -7,4 +7,6 @@ tags:
     - first post
 ---
 
-Hello, world! This is a test post in ttedja.netlify.com.
+Hello, world! This is a test post in [ttedja.netlify.com](ttedja.netlify.com).
+
+This is a new sentence.
