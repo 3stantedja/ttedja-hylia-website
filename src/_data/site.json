@@ -1,13 +1,13 @@
 {
   "showThemeCredit": true,
-  "name": "Hello, world!",
+  "name": "ttedja's ramble-a-thon",
   "shortDesc": "Tristan's personal site.",
   "url": "https://ttedja.netlify.com",
   "authorEmail": "3stan.tedja@gmail.com",
   "authorHandle": "@3stantedja",
   "authorName": "Tristan Tedja",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 5,
-  "paymentPointer": "",
-  "faviconPath": "/images/favicon.png"
+  "paymentPointer": "nope",
+  "faviconPath": "/images/favicon.png",
+  "maxPostsPerPage": 5
 }
