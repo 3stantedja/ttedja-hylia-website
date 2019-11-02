@@ -1,3 +1,8 @@
+# ttedja-hylia-website [![Netlify Status](https://api.netlify.com/api/v1/badges/03ce14bb-d842-4eff-848d-e2f219ac20c7/deploy-status)](https://app.netlify.com/sites/ttedja/deploys)
+
+This is a work-in-progress website. This might replace the current 3stantedja.github.io website hosted in GitHub. Below are the Readme for the starter kit Hylia.
+
+
 # A simple starter kit for Eleventy
 
 Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
