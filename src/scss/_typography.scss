@@ -8,6 +8,68 @@
     url('/fonts/lora-v13-latin-700.woff') format('woff');
 }
 
+/* Iosevka (400 and 700) */
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: normal;
+  font-weight: 400;
+  font-variant-ligatures: normal;
+  src: url('/fonts/iosevka-regular.woff2') format('woff2'),
+    url('/fonts/iosevka-regular.woff') format('woff'),
+    url('/fonts/iosevka-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: italic;
+  font-weight: 400;
+  font-variant-ligatures: normal;
+  src: url('/fonts/iosevka-italic.woff2') format('woff2'),
+    url('/fonts/iosevka-italic.woff') format('woff'),
+    url('/fonts/iosevka-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: oblique;
+  font-weight: 400;
+  font-variant-ligatures: normal;
+  src: url('/fonts/iosevka-oblique.woff2') format('woff2'),
+  url('/fonts/iosevka-oblique.woff') format('woff'),
+  url('/fonts/iosevka-oblique.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: normal;
+  font-weight: 700;
+  font-variant-ligatures: normal;
+  src: url('/fonts/iosevka-bold.woff2') format('woff2'),
+    url('/fonts/iosevka-bold.woff') format('woff'),
+    url('/fonts/iosevka-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: italic;
+  font-weight: 700;
+  font-variant-ligatures: normal;
+  src: url('/fonts/iosevka-bolditalic.woff2') format('woff2'),
+    url('/fonts/iosevka-bolditalic.woff') format('woff'),
+    url('/fonts/iosevka-bolditalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: oblique;
+  font-weight: 700;
+  font-variant-ligatures: normal;
+  src: url('/fonts/iosevka-boldoblique.woff2') format('woff2'),
+    url('/fonts/iosevka-boldoblique.woff') format('woff'),
+    url('/fonts/iosevka-boldoblique.ttf') format('truetype');
+}
+
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);
