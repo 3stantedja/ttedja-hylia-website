@@ -1,11 +1,12 @@
 ---
 title: A post with KaTeX
+metaDesc: This is a post with some maths expressions to test with.
 date: '2019-11-01'
 tags:
-    - hello world!
-    - test
-    - math equations
-    - katex
+  - hello world!
+  - test
+  - math equations
+  - katex
 ---
 
 This is a post with some math equations.
