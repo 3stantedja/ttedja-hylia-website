@@ -4,10 +4,12 @@ This is a work-in-progress website. This might replace the current 3stantedja.gi
 
 ## Notes
 
-1. Font loading
+1. **Font loading**
+
 For fonts loaded from Google Fonts (currently Playfair Display), they're defined via `base.njk`. For fonts hosted locally from Netlify (currently Iosevka), they're defined through [`_typography.scss`](https://github.com/3stantedja/ttedja-hylia-website/blob/master/src/scss/_typography.scss) with the fonts stored at [`src/fonts/'](https://github.com/3stantedja/ttedja-hylia-website/tree/master/src/fonts).
 
-2. KaTeX
+2. **KaTeX**
+
 Following \[insert website here\], I've implemented KaTeX (1) as a plugin to `markdown-it`, and (2) with the necessary extensions (auto-render and copy TeX) in `base.njk`. The stylesheet for KaTeX is also defined in `base.njk`.
 
 
