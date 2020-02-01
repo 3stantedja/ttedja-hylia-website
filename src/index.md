@@ -1,8 +1,8 @@
 ---
 layout: home
-title: ttedja's website
+title: Tristan's personal site
 postsHeading: Latest posts
-archiveButtonText: See all posts
+archiveButtonText: See older posts
 socialImage: ''
 ---
-Hello, world!
+Below are some of my thoughts (and probably some reference material) that I had once in a while. Does not reflect anyone's but mine's opinion.

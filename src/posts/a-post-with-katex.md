@@ -42,8 +42,8 @@ $$
 \begin{aligned}
   \oiint_{\partial\Omega} \mathbf{E} \cdot \mathrm{d}\mathbf{S} &= \frac{1}{\epsilon_0} \iiint_\Omega \rho \mathrm{d} V \\
   \oiint_{\partial\Omega} \mathbf{B} \cdot \mathrm{d} \mathbf{S} &= 0 \\
-  \oint_{\partial\Sigma} \mathbf{E} \cdot \mathrm{d} \mathbf{\mathit{l}} &= - \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{B} \cdot \mathrm{d} \mathbf{S} \\
-  \oint_{\partial\Sigma} \mathbf{B} \cdot \mathrm{d} \mathbf{\mathit{l}} &= \mu_0 \left( \iint_\Sigma \mathbf{J} \cdot \mathrm{d} \mathbf{S} + \epsilon_0 \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{E} \cdot \mathrm{d} \mathbf{S} \right)
+  \oint_{\partial\Sigma} \mathbf{E} \cdot \mathrm{d} \boldsymbol{l} &= - \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{B} \cdot \mathrm{d} \mathbf{S} \\
+  \oint_{\partial\Sigma} \mathbf{B} \cdot \mathrm{d} \boldsymbol{l} &= \mu_0 \left( \iint_\Sigma \mathbf{J} \cdot \mathrm{d} \mathbf{S} + \epsilon_0 \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{E} \cdot \mathrm{d} \mathbf{S} \right)
 \end{aligned}
 $$
 
@@ -51,8 +51,8 @@ $$
 \begin{aligned}
   \oiint_{\partial\Omega} \mathbf{E} \cdot \mathrm{d}\mathbf{S} &= \frac{1}{\epsilon_0} \iiint_\Omega \rho \mathrm{d} V \\
   \oiint_{\partial\Omega} \mathbf{B} \cdot \mathrm{d} \mathbf{S} &= 0 \\
-  \oint_{\partial\Sigma} \mathbf{E} \cdot \mathrm{d} \mathbf{\mathit{l}} &= - \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{B} \cdot \mathrm{d} \mathbf{S} \\
-  \oint_{\partial\Sigma} \mathbf{B} \cdot \mathrm{d} \mathbf{\mathit{l}} &= \mu_0 \left( \iint_\Sigma \mathbf{J} \cdot \mathrm{d} \mathbf{S} + \epsilon_0 \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{E} \cdot \mathrm{d} \mathbf{S} \right)
+  \oint_{\partial\Sigma} \mathbf{E} \cdot \mathrm{d} \boldsymbol{l} &= - \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{B} \cdot \mathrm{d} \mathbf{S} \\
+  \oint_{\partial\Sigma} \mathbf{B} \cdot \mathrm{d} \boldsymbol{l} &= \mu_0 \left( \iint_\Sigma \mathbf{J} \cdot \mathrm{d} \mathbf{S} + \epsilon_0 \frac{\mathrm{d}}{\mathrm{d} t} \iint_\Sigma \mathbf{E} \cdot \mathrm{d} \mathbf{S} \right)
 \end{aligned}
 ```
 
@@ -65,10 +65,9 @@ $$ \begin{array}{l}
 \end{array} $$
 
 ```latex
-\[
 \begin{array}{l}
     p \rightarrow \neg q \\
     r \rightarrow (p \wedge q) \\ \hline
     \neg r
 \end{array}
-\]
+```
