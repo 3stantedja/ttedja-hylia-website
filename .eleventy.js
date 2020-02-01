@@ -66,7 +66,12 @@ module.exports = function(config) {
     linkify: true
   };
 
-  config.setLibrary("md", markdownIt(options).use(markdownItKatex, {"throwOnError" : false, "errorColor" : "#cc0000"}))
+  config.setLibrary(
+    "md", markdownIt(options).use(markdownItKatex, {
+      "throwOnError" : false,
+      "errorColor" : "#cc0000"
+    })
+  )
 
   // 404 
   config.setBrowserSyncConfig({
